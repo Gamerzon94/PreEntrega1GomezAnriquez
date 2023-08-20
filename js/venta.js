@@ -1,3 +1,4 @@
+//declaracion de variables
 let nombre = '';
 
 let opcion = '';
@@ -23,6 +24,7 @@ let menuAnimatronicos = `1.- Freddy Fazbear $1.000 x dia
 4.- Foxy $800 x dia
 `;
 
+//declaracion de funciones
 function rentarAnimatronico(valor, dias){
     if(valor==1){
         console.log("Usted tendra a Freddy Fazbear por "+dias+" dia(s) por el valor de: $"+1000*dias);
@@ -66,6 +68,7 @@ function alcanzaAnimatronico(valor){
     console.log(menu);
 }
 
+//codigo de ejecucion
 nombre = prompt("Bienvenido nuevo usuario, por favor dime tu nombre");
 
 console.log(` _____        _                       _____      _            _        _                            _       _____
